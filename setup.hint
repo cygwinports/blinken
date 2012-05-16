@@ -1,5 +1,4 @@
 category: KDE Games
 requires: libgcc1 libkdecore5 libphonon4 libQtCore4 libQtGui4 libQtSvg4 libstdc++6 font-sjfonts-ttf
-external-source: kdeedu
 sdesc: "KDE Simon Says game"
 ldesc: "KDE education suite"
