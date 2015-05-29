@@ -6,4 +6,4 @@ RELEASE=1
 CATEGORY="Games"
 SUMMARY="KDE Simon Says game"
 DESCRIPTION="Part of the KDE education suite"
-REQUIRES="font-sjfonts-ttf"
+REQUIRES="font-sjfonts-ttf kde-runtime"
