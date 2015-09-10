@@ -1,9 +1,17 @@
-inherit kde4
+inherit kf5
 
 NAME="blinken"
-VERSION=14.12.3
+VERSION=15.04.3
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="KDE Simon Says game"
 DESCRIPTION="Part of the KDE education suite"
-REQUIRES="font-sjfonts-ttf kde-runtime"
+
+REQUIRES="sj-fonts"
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	rm -f ${D}/usr/share/blinken/fonts/steve.ttf
+}
